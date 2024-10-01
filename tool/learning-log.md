@@ -1,12 +1,12 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Easy Toggle State**
 
-## Project: **X**
+## Project: **Personality Quiz**
 
 ---
 
-### X/X/XX:
+### 9/30/24:
 * Text
 
 ### X/X/XX:
