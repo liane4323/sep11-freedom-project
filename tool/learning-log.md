@@ -14,7 +14,8 @@
   * On the demo page I tried to visualize how I want to layout my quiz. The developers that created the demo page used features like **Tabs and Checkboxes**  
   * Later on, I officially came up with 1 feature that I will be using in my website. The feature is called **"Radio buttons"**. 
 <img width="577" alt="Screenshot 2024-10-07 at 6 49 09 AM" src="https://github.com/user-attachments/assets/e721d6d5-acbe-4d72-bfa8-2551d9342264">
-I chose this feature because it looks like an answer choice section from a quiz. It reminded me of google forms that I would fill out in school. You can see the resemblance in the picture above. 
+
+* I chose this feature because it looks like an answer choice section from a quiz. It reminded me of google forms that I would fill out in school. You can see the resemblance in the picture above. 
 
 **Next up:** I will pick another feature that is suitible for my freedom project. 
 
