@@ -14,7 +14,9 @@
   * On the demo page I tried to visualize on how I want to layout my quiz. The developers that created the demo page used features like **Tabs and Checkboxes**  
   * Later on, I officialy came up with 1 feature that I will be using in my website. The feature is called **"Radio buttons"**. I chose this feature because it looks like a answer choice section from a quiz. As you can see in the picture below: 
 <img width="577" alt="Screenshot 2024-10-07 at 6 49 09 AM" src="https://github.com/user-attachments/assets/e721d6d5-acbe-4d72-bfa8-2551d9342264">
+
 * **Next I will try to pick another feature that I can use in my website**
+
 
 ### X/X/XX:
 * Text
