@@ -17,6 +17,11 @@
 
 * I chose this feature because it looks like an answer choice section from a quiz. It reminded me of google forms that I would fill out in school. You can see the resemblance in the picture above. 
 
+
+
+
+
+
 **Next up:** I will pick another feature that is suitible for my freedom project. 
 
 
