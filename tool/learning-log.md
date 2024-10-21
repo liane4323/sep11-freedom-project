@@ -18,7 +18,11 @@
 * I chose this feature because it looks like an answer choice section from a quiz. It reminded me of google forms that I would fill out in school. You can see the resemblance in the picture above. 
 
 
+Here 3 phrases that I have learnt + their meanings in my own words: 
 
+* **recurrent behavior** - atterns or actions that repeat over time (mostly through functions.
+* **native component** - a UI element for the use of better performance on many devices.
+* **ARIA** - make web applications more accessible like screen readers (_Accessible Rich Internet Applications_). 
 
 
 
