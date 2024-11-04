@@ -59,7 +59,7 @@ I am on stage 1 of the engineering design process which is **Define the Problem*
 
  ### Organization
 
-I believe that I touched up on the skill of organization because of the way I planned out my learning process. Although I lost the paper that I sketched for how I want my demo website to look like, I did a pretty good job working on this skill. To ensure that my learning process would flow as smoothly as possible, I had to ensure that everything was going on track. Another example would be when I created my Personality Quiz plan. I planned ahead on what I wanted to do with the tool that I chose. This skill would help me in other instances in terms of smoothly getting things done without confusion.
+I believe that I touched up on the skill of organization because of the way I planned out my learning process. Although I lost the paper that I sketched for how I want my demo website to look like, I did a pretty good job working on this skill. To ensure that my learning process would flow as smoothly as possible, I had to make sure that everything was going on track. Another example of me practicing this skill would be when I created my Personality Quiz plan. I planned ahead on what I wanted to do with the tool that I chose. This skill would help me in other instances in terms of smoothly getting things done without confusion.
 
 
 
