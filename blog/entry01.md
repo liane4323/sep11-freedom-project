@@ -1,11 +1,11 @@
 # Entry 1 ♡
 ##### 10/28/24
 
- In this blog, I will be going over my journey of choosing a topic and tinkering.
+
 
 ## Context
 
-For this freedom project, I will create a Personality Quiz using the _Easy Toggle State_ tool and my previous knowledge on HTML, CSS, and JS. This quiz will include points that the user will keep track of. At the end of the quiz they will receive the personality trait results. Based on the points they received, the user will find their personality trait. Some concepts like Radio buttons and Dropdowns will be useful in order to complete this project.
+For this freedom project, I will create a Personality Quiz using the _Easy Toggle State_ tool and my previous knowledge on HTML, CSS, and JS. This quiz will include points that the user will keep track of. At the end of the quiz they will receive the personality trait results. Based on the points they received, the user will find their personality trait. Some concepts like Radio buttons and Dropdowns will be useful in order to complete this project. In this blog, I will be going over my journey of choosing a topic and tinkering.
 
 ### Choosing a Topic
 
