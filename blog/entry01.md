@@ -43,7 +43,7 @@ Now that I figured out that I 100% wanted to go with this plan, I started my _ti
 </button>
 ```
 
- to try and test out if this would do anything. I continued to test out pieces of code from the Easy Toggle State website. Before I continue tinkering I came up with another plan to be more _organized_. My plan is to create a quick website using these new concepts that I learnt. I started sketching/jotting down what I want my website to include/look like.
+ to try and test out if this would do anything. I continued to test out pieces of code from the Easy Toggle State website. Before I continue tinkering I came up with another plan to be more _organized_. My plan is to create a demo website using these new concepts that I learnt. I started jotting down what I want my demo website to look like. 
 
  ## EDP (Engineering Design Process)
 
