@@ -1,11 +1,11 @@
 # Entry 1 ♡
 ##### 10/28/24
 
- In this blog, I will be going over my journey of choosing a topic and tinkering.
+
 
 ## Context
 
-For this freedom project, I will create a Personality Quiz using the _Easy Toggle State_ tool and my previous knowledge on HTML, CSS, and JS. This quiz will include points that the user will keep track of. At the end of the quiz they will receive the personality trait results. Based on the points they received they will find their personality trait. Some concepts like Radio buttons and Dropdowns will be useful in order to complete this project.
+For this freedom project, I will create a Personality Quiz using the _Easy Toggle State_ tool and my previous knowledge on HTML, CSS, and JS. This quiz will include points that the user will keep track of. At the end of the quiz they will receive the personality trait results. Based on the points they received, the user will find their personality trait. Some concepts like Radio buttons and Dropdowns will be useful in order to complete this project. In this blog, I will be going over my journey of choosing a topic and tinkering.
 
 ### Choosing a Topic
 
@@ -43,7 +43,7 @@ Now that I figured out that I 100% wanted to go with this plan, I started my _ti
 </button>
 ```
 
- to try and test out if this would do anything. I continued to test out pieces of code from the Easy Toggle State website. Before I continue tinkering I came up with another plan to be more _organized_. My plan is to create a quick website using these new concepts that I learnt. I started sketching/jotting down what I want my website to include/look like.
+ to try and test out if this would do anything. I continued to test out pieces of code from the Easy Toggle State website. Before I continue tinkering I came up with another plan to be more _organized_. My plan is to create a demo website using these new concepts that I learnt. I started jotting down what I want my demo website to look like. 
 
  ## EDP (Engineering Design Process)
 
@@ -59,7 +59,7 @@ I am on stage 1 of the engineering design process which is **Define the Problem*
 
  ### Organization
 
-I believe that I touched up on the skill of organization because of the way I planned out my learning process. Although I lost the paper that I sketched for how I want my demo website to look like, I did a pretty good job working on this skill. To ensure that my learning process would flow as smoothly as possible, I had to ensure that everything was going on track. Another example would be when I created my Personality Quiz plan. I planned ahead on what I wanted to do with the tool that I chose. This skill would help me in other instances in terms of smoothly getting things done without confusion.
+I believe that I touched up on the skill of organization because of the way I planned out my learning process. Although I lost the paper that I sketched for how I want my demo website to look like, I did a pretty good job working on this skill. To ensure that my learning process would flow as smoothly as possible, I had to make sure that everything was going on track. Another example of me practicing this skill would be when I created my Personality Quiz plan. I planned ahead on what I wanted to do with the tool that I chose. This skill would help me in other instances in terms of smoothly getting things done without confusion.
 
 
 
