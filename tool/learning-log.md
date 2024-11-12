@@ -79,7 +79,7 @@ tabs.forEach((tab, index) => {
 ```
 
 
-3. **Tabs with ARIA*** 
+3. **Tabs with ARIA**
 
 
 html part of code: 
@@ -116,7 +116,7 @@ Like I said before, the difference in code is crystal clear. In my opinion, I wo
 
 **Next up:** I will start working on my tinkering webpage in my IDE. 
 
-### 11/8/24: LLearning Log 3
+### 11/8/24: Learning Log 3
 
 Previously, I picked another feature that I will be including in my website. I chose Tabs, however I didn't explain the significance/role that it would have in my website.
 
@@ -171,7 +171,6 @@ My goal is to keep everything simple, but practice my JS skills using the tool t
 **Next up:** Link my tool into code + practice Radio buttons. 
 
 
-* Text
 
 
 <!--
@@ -181,4 +180,4 @@ My goal is to keep everything simple, but practice my JS skills using the tool t
 * Questions you still have
 * What you're going to try next
 -->
-†
+
