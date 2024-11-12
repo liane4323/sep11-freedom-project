@@ -146,6 +146,8 @@ I inserted a HTML, CSS, and JS layout in order to be prepared for my upcoming De
         <link rel="stylesheet" href="./style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
+         <!-- Link to the Easy Toggle State JS from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-toggle-state/1.16.0/easy-toggle-state.min.js" defer></script>
 
         <style>
             /* CSS */
@@ -154,7 +156,7 @@ I inserted a HTML, CSS, and JS layout in order to be prepared for my upcoming De
     </head>
 
 ```
-As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page
+As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state" > CDN. 
 
 
 ``` html
@@ -165,10 +167,10 @@ As you can see above, I made sure everything in the `<head>` was sorted out and 
 
         </main>
 ```
-My goal is to keep everything simple, but practice my JS skills using the tool that I am currently learning. I have to link my tool in order to use it but I am having trouble in doing so. 
+My goal is to keep everything simple, but practice my JS skills using the tool that I am currently learning. I have to link my tool in order to use it but I am having trouble in doing so. I am finished with my prep and ready to go!
 
 
-**Next up:** Link my tool into code + practice Radio buttons. 
+**Next up:** Practice radio buttons 
 
 
 
