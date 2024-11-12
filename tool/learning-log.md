@@ -162,12 +162,12 @@ As you can see above, I made sure everything in the `<head>` was sorted out and 
 
 
 ``` html
-   <main>
-            <h1>Welcome to My Website</h1>
+<main>
 
-            <p> This website was created so I could test my coding skills, BEHOLD!!! THE!!! TOGGLE!! SITE!!   </p>
+ <h1>Welcome to My Website</h1>
+ <p> This website was created so I could test my coding skills, BEHOLD!!! THE!!! TOGGLE!! SITE!!   </p>
 
-        </main>
+</main>
 ```
 My goal is to keep everything simple, but practice my JS skills using the tool that I am currently learning. I have to link my tool in order to use it but I am having trouble in doing so. I am finished with my prep and ready to go!
 
