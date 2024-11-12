@@ -111,12 +111,14 @@ tabs.forEach(tab => {
 ```
 
 
-Like I said before, the difference in code is crystal clear. In my opinion, I would say that ARIA Tabs are the most complex.One is the least complex on the list, while three is the most complex. Since I am a beginner to this tool, I will be choosing to stick with the Simple Tabs. 
+Like I said before, the difference in code is crystal clear. In my opinion, I would say that ARIA Tabs are the most complex. One is the least complex on the list, while three is the most complex. Since I am a beginner to this tool, I will be choosing to stick with the Simple Tabs. 
 
 
 **Next up:** I will start working on my tinkering webpage in my IDE. 
 
 ### 11/8/24: LEARNING LOG 3
+
+
 
 
 * Text
