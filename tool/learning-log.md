@@ -6,7 +6,7 @@
 
 ---
 
-### 9/30/24: LEARNING LOG 1
+### 9/30/24: Learning Log 1 
 * First thing that I did was search up "Easy Toggle State for beginners" on Youtube, I only found tutorials on how to make toggles from scratch.
  * Instead of watching tutorials, I wanted to explore the <a href = "https://twikito.github.io/easy-toggle-state/" > Easy Toggle State </a> website.
 * When exploring the website of my tool, I took a look at the demo page. _The demo page is a website that developers made in order to show us how the concepts of this tool work._
@@ -29,7 +29,7 @@ Here 3 phrases that I have learnt + their meanings in my own words:
 
 
 
-### 10/21/24:LEARNING LOG 2 
+### 10/21/24: Learning Log 2 
 
  Starting off from where I left on the last log, the previous feature that I picked was Radio buttons. My main task for this learning log is to discover another feature that I will use for my Freedom Project Website. In order to find the most suitable, I will be _tinkering_.
 
@@ -111,14 +111,64 @@ tabs.forEach(tab => {
 ```
 
 
-Like I said before, the difference in code is crystal clear. In my opinion, I would say that ARIA Tabs are the most complex. One is the least complex on the list, while three is the most complex. Since I am a beginner to this tool, I will be choosing to stick with the Simple Tabs. 
+Like I said before, the difference in code is crystal clear. In my opinion, I would say that ARIA Tabs are the most complex. One is the least complex on the list, while three is the most complex. Since I am a beginner to this tool, I will stick with the Simple Tabs. 
 
 
 **Next up:** I will start working on my tinkering webpage in my IDE. 
 
-### 11/8/24: LEARNING LOG 3
+### 11/8/24: LLearning Log 3
+
+Previously, I picked another feature that I will be including in my website. I chose Tabs, however I didn't explain the significance/role that it would have in my website.
+
+* I wanted to get an idea of how my wepage laayout would be
+  * Immediatley I startedlooking for inspo so I went to Google Forms to be reminded of their format.
+ * I dont want my Quiz webpage to be exactly the same as Google Forms so, I thought that I would include tabs to be a part of the end of the quiz.
+  * As the user finishes the quiz, they keep the total of the points they earned from answering the choices. I will then use tabs to seperate the personalities into their given group based on the points earned.
+
+* Going back to my start up progress from LL1 in my IDE, I created tinkering files that would be used for my "Tinkering Website"
+* I am planning to make this webesite to test out features that I learn/am willing to use.
+
+Here is an img of my IDE pov so far: 
+<img width="375" alt="Screenshot 2024-11-11 at 7 32 25 PM" src="https://github.com/user-attachments/assets/a5cac76a-d574-4a54-8659-2fe1470dda4f">
+
+* I am willing to practice my CSS skills from past years in order to enhance my tinkering website.
+ * I will be labelling this task as **_Beyond MYP_**
+
+I inserted a HTML, CSS, and JS layout in order to be prepared for my upcoming Demo Webpage.
+
+```html
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Demo Site</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <style>
+            /* CSS */
+        </style>
+
+    </head>
+
+```
+As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page
 
 
+``` html
+   <main>
+            <h1>Welcome to My Website</h1>
+
+            <p> This website was created so I could test my coding skills, BEHOLD!!! THE!!! TOGGLE!! SITE!!   </p>
+
+        </main>
+```
+My goal is to keep everything simple, but practice my JS skills using the tool that I am currently learning. I have to link my tool in order to use it but I am having trouble in doing so. 
+
+
+**Next up:** Link my tool into code + practice Radio buttons. 
 
 
 * Text
