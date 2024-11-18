@@ -193,10 +193,10 @@ In the previous learning log, the main things that I focused on was picking anot
 
 Different type of inputs: 
 
-text - `<input type="text" />`
-checkbox - `<input type="checkbox" />`
-radio - `<input type="radio" />`
-button - `<input type="button" />`
+* text - `<input type="text" />`
+* checkbox - `<input type="checkbox" />`
+* radio - `<input type="radio" />`
+* button - `<input type="button" />`
 
 This was a note jotted down in my notes. In Unit 1: Basic Web Design, I thoroughly explained concepts in HTML and CSS with examples of the code. I can use my SEP10 notes as a resource for making my freeodm project this year. 
 
