@@ -203,7 +203,7 @@ This was a note jotted down in my notes. In Unit 1: Basic Web Design, I thorough
 Another thing that I accomplished during the duration of this learning log is finding the perfect CSS gradient for my demo website. The code that I used is: 
 
 ```css
-background: linear-gradient(240deg, #003f5b, #515090, #b34d99, #f9586c, #ff9913); 
+    background: linear-gradient(240deg, #eeaeca, #94bbe9, #f1d7e7);
 ```
 
  The color of a website is very important because: 
