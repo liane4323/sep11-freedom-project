@@ -176,6 +176,50 @@ My goal is to keep everything simple, but practice my JS skills using the tool t
 
 
 
+### 11/18/24: Learning Log 4
+
+In the previous learning log, the main things that I focused on was picking another tool to use for my freedom project. In this learning log I will be using my previous knowledge of CSS and HTML to startt working on my demo website. 
+
+
+* The first thing that I did was open my IDE and cd into my tool tinkering folder
+   * After that I googled the HTML and CSS layout
+   * I placed the layout where it needed to be and started coding what I want my base to look like
+ 
+* I refreshed my memory on CSS code, one thing that I found very helpful was mt SEP10 notes
+* I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand
+* For this freedom project I want to be able to project my thinking so future me could easily progress
+
+* Let me show you a piece of information that came useful when I was working on my base for the demo website.
+
+Different type of inputs: 
+
+text - `<input type="text" />`
+checkbox - `<input type="checkbox" />`
+radio - `<input type="radio" />`
+button - `<input type="button" />`
+
+This was a note jotted down in my notes. In Unit 1: Basic Web Design, I thoroughly explained concepts in HTML and CSS with examples of the code. I can use my SEP10 notes as a resource for making my freeodm project this year. 
+
+Another thing that I accomplished during the duration of this learning log is fidning the perfect CSS gradient for my demo website. The code that I used is: 
+
+```css
+background: linear-gradient(240deg, #003f5b, #515090, #b34d99, #f9586c, #ff9913); 
+```
+
+ The color of a website is very important because: 
+  
+* Colors on a website change the look of a website
+* Connect the user to your website
+* Affects how people feel
+* What they see
+* How they act
+
+
+_tertiary colors_ = The combination of primary and secondary colors
+
+
+**Next up:** Improve the base + get ready to use JS (+ your tool!!)
+
 
 <!--
 * Links you used today (websites, videos, etc)
