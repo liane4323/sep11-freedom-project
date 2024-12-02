@@ -185,7 +185,7 @@ In the previous learning log, the main things that I focused on was picking anot
    * After that I googled the HTML and CSS layout
    * I placed the layout where it needed to be and started coding what I want my base to look like
  
-* I refreshed my memory on CSS code, one thing that I found very helpful was mt SEP10 notes
+* I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes
 * I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand
 * For this freedom project I want to be able to project my thinking so future me could easily progress
 
