@@ -222,7 +222,7 @@ _tertiary colors_ = The combination of primary and secondary colors
 
 ### 12/2/24: Learning Log 5
 
-Down below is a screenshot final CSS look for my DEMO site:
+Down below is a screenshot final CSS + Basic HTML look for my DEMO site:
 
 <img width="1279" alt="Screenshot 2024-12-09 at 10 26 51 AM" src="https://github.com/user-attachments/assets/7cc22fed-fba1-4cf9-bba5-725cafd3d590">
 
