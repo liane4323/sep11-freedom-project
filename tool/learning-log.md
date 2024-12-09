@@ -220,6 +220,9 @@ _tertiary colors_ = The combination of primary and secondary colors
 
 **Next up:** Improve the base + get ready to use JS (+ your tool!!)
 
+### 12/2/24: Learning Log 5
+
+
 
 <!--
 * Links you used today (websites, videos, etc)
