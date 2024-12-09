@@ -156,7 +156,7 @@ I inserted a HTML, CSS, and JS layout in order to be prepared for my upcoming De
     </head>
 
 ```
-As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state" > CDN. I made sure to link the most recent and updated version so my code would be able to run smoothly 
+As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state"> CDN. _I made sure to link the most recent and updated version so my code would be able to run smoothly_
 
 - One thing that I would like to keep up is include `<!-- comments -->` In order to be organized and keep notes to prep for the final Webpage
 
