@@ -9,13 +9,13 @@ In this entry:
 
 ## Content 
 
-During the past few weeks I have been learning more about Easy Toggle State JS. In the previous blog, I mentioned the creation of a DEMO page. Creating a demo website will help me impliment the learning that I have done before the final. 
+During the past few weeks I have been learning more about Easy Toggle State JS. In the previous blog, I mentioned the creation of a DEMO page. Creating a demo website will help me implement the learning that I have done before the final.
 
 ## Tinkering 
 
-In the process of learning my tool, I chose to pick two features to start learning. This decision helped me be on track with my learning progress and deeply understand concepts. Down below, I will go over the process of me picking a feature. 
+In the process of learning my tool, I chose to pick two features to start learning. This decision helped me be on track with my learning progress and deeply understand concepts. Down below, I will go over the process of me picking a feature.
 
-The first thing that I did was visit my tools website <a href = "https://twikito.github.io/easy-toggle-state/" > (Easy Toggle State) </a>. I viewed the source over and over again to see what would be of use to me then I saw a feature called `tabs`. This feature reminded me of tabs open on a browsing app. When looking at this feature, I noticed that there was 3 versions that we can pick from. At first I didn't get the difference between these versions because the outcome of this feature was the same. In order to understand the difference, I decided to take a glipse of the code, they were very different. 
+The first thing that I did was visit my tools website <a href = "https://twikito.github.io/easy-toggle-state/" > (Easy Toggle State) </a> . I viewed the source over and over again to see what would be of use to me then I saw a feature called `tabs`. This feature reminded me of tabs open on a browsing app. When looking at this feature, I noticed that there were 3 versions that we can pick from. At first I didn't get the difference between these versions because the outcome of this feature was the same. In order to understand the difference, I decided to take a glimpse of the code, they were very different.
 
 Below is the 3 different tabs and an explination of them in my own words:
 * **simple tabs** -  Basic tab functionality, with mouse support only
@@ -87,14 +87,15 @@ tabs.forEach(tab => {
 ```
 
 
-Like I said before, the difference in code is crystal clear. In my opinion, I would say that ARIA Tabs are the most complex becauseit allows enhancment in accessibilty and so much more. "Simple Tabs" is the least complex on the list, while three is the most complex. Since I am a beginner to this tool, I will stick with the Simple Tabs. 
+Like I said before, the difference in code is crystal clear. In my opinion, I would say that ARIA Tabs are the most complex because they allow enhancement in accessibility and so much more. "Simple Tabs" is the least complex on the list, while three is the most complex. Since I am a beginner to this tool, I will stick with the Simple Tabs.
 
 ### DEMO WEBSITE 
 
-The first thing that I did was open my IDE and cd into my tool tinkering folder. After that I googled the HTML and CSS layout in order to get started. I placed the layout where it needed to be and started coding what I want my base to look like. I refreshed my memory on CSS code, one thing that I found very helpful was my **SEP10 notes**. I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand. _For this freedom project I want to be able to project my thinking so future me could easily progress_. 
+The first thing that I did was open my IDE and cd into my tool tinkering folder. After that I googled the HTML and CSS layout in order to get started. I placed the layout where it needed to be and started coding what I want my base to look like. I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes. I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand. _For this freedom project I want to be able to project my thinking so future me could easily progress_.
 
 
-After finishing all the basics this is what my DEMO page looks like: 
+After finishing all the basics this is what my DEMO page looks like:
+
 
 <img width="1279" alt="Screenshot 2024-12-09 at 10 26 51 AM" src="https://github.com/user-attachments/assets/7cc22fed-fba1-4cf9-bba5-725cafd3d590">
 
@@ -106,7 +107,7 @@ I am on step 2 of this process, which is **research** the problem.
 
 ## Skill
 
-**Self-Discipline** is an important skill that I believe I touch up on the most. I believe that I worked on this skill because I made it my respsibility to complete my priority tasks first and give in my full effort. If I failed to do so, I took away the things that distracted me. For instance, I remember when I was in the process of completing my FP (freedom project) content, I got distracted by my phone for a period of 2 hours. I let myself waste 120 minutes instead of doing something productive. I felt unpleasent with my actions. I decided to step up and take action so I can ensure that I won't get distracted. I gave my phone to my sister to hold it for me until I was done with what I needed to complete. As a result, this occurrence made me wake up to my senses and see how important it is to have boundaries and limits within ourselves.
+**Self-Discipline** is an important skill that I believe I touch up on the most. I believe that I worked on this skill because I made it my responsibility to complete my priority tasks first and give in my full effort. If I failed to do so, I took away the things that distracted me. For instance, I remember when I was in the process of completing my FP (freedom project) content, I got distracted by my phone for a period of 2 hours. I let myself waste 120 minutes instead of doing something productive. I felt unpleasant with my actions. I decided to step up and take action so I can ensure that I won't get distracted. I gave my phone to my sister to hold it for me until I was done with what I needed to complete. As a result, this occurrence made me wake up to my senses and see how important it is to have boundaries and limits within ourselves.
 
 
 ## Next Steps 
