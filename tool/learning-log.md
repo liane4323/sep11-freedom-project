@@ -221,10 +221,15 @@ _tertiary colors_ = The combination of primary and secondary colors
 **Next up:** Improve the base + get ready to use JS (+ your tool!!)
 
 ### 12/2/24: Learning Log 5
+N/A
 
-Down below is a screenshot final CSS + Basic HTML look for my DEMO site:
+### 12/9/24: Learning Log 6 
 
+Down below is a screenshot of the final CSS + Basic HTML look for my DEMO site:
 <img width="1279" alt="Screenshot 2024-12-09 at 10 26 51 AM" src="https://github.com/user-attachments/assets/7cc22fed-fba1-4cf9-bba5-725cafd3d590">
+
+
+Now that everything is set up, my next step is to use my the Easy Toggle State tool into my demo site. 
 
 <!--
 * Links you used today (websites, videos, etc)
@@ -233,4 +238,3 @@ Down below is a screenshot final CSS + Basic HTML look for my DEMO site:
 * Questions you still have
 * What you're going to try next
 -->
-
