@@ -17,7 +17,7 @@ In the process of learning my tool, I chose to pick two features to start learni
 
 The first thing that I did was visit my tools website <a href = "https://twikito.github.io/easy-toggle-state/" > (Easy Toggle State) </a> . I viewed the source over and over again to see what would be of use to me then I saw a feature called `tabs`. This feature reminded me of tabs open on a browsing app. When looking at this feature, I noticed that there were 3 versions that we can pick from. At first I didn't get the difference between these versions because the outcome of this feature was the same. In order to understand the difference, I decided to take a glimpse of the code, they were very different.
 
-Below is the 3 different tabs and an explination of them in my own words:
+Below is the 3 different tabs and an explanation of them in my own words:
 * **simple tabs** -  Basic tab functionality, with mouse support only
 * **tabs and arrow keys** - Adds keyboard accessibility, allowing users to navigate between tabs using arrow keys
 * **tabs with ARIA** - Enhances accessibility, enabling support for screen readers, etc
