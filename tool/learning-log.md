@@ -225,11 +225,36 @@ N/A
 
 ### 12/9/24: Learning Log 6 
 
+After all the CSS and Basic HTML code my DEMO cite is finalized and ready to go 
+
 Down below is a screenshot of the final CSS + Basic HTML look for my DEMO site:
 <img width="1279" alt="Screenshot 2024-12-09 at 10 26 51 AM" src="https://github.com/user-attachments/assets/7cc22fed-fba1-4cf9-bba5-725cafd3d590">
 
 
-Now that everything is set up, my next step is to use my the Easy Toggle State tool into my demo site. 
+Now that everything is set up, I need to learn more about my tool. 
+
+- I open up the <a href = "https://twikito.github.io/easy-toggle-state/" > Easy Toggle State </a> website.
+
+1. Basic State State
+
+```js 
+const toggleState = new ToggleState(false);
+
+// Toggle from false to true
+toggleState.toggle();  // true
+
+// Toggle back from true to false
+toggleState.toggle();  // false
+```
+**What I learnt:** When using new `ToggleState()`  I can initialize a state with a default value (in this case, false). The `toggle()` method automatically flips the state between true and false without needing to manually write it. This saves time and reduces the chances of mistakes in the code when managing boolean values. 
+
+
+- The Easy Toggle State is a great tool when it comes to using booleans (true/false).
+- I learned that this tool helps the readability of code. It waters down everything and makes it easier for us to use
+
+
+
+
 
 <!--
 * Links you used today (websites, videos, etc)
