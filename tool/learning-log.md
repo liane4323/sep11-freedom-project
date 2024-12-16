@@ -235,7 +235,8 @@ Now that everything is set up, I need to learn more about my tool.
 
 - I open up the <a href = "https://twikito.github.io/easy-toggle-state/" > Easy Toggle State </a> website.
 
-1. Basic State State
+
+**_Basic State State_**
 
 ```js 
 const toggleState = new ToggleState(false);
@@ -251,6 +252,9 @@ toggleState.toggle();  // false
 
 - The Easy Toggle State is a great tool when it comes to using booleans (true/false).
 - I learned that this tool helps the readability of code. It waters down everything and makes it easier for us to use
+
+
+
 
 
 
