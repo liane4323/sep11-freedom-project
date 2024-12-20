@@ -108,7 +108,7 @@ After finishing all the basics this is what my DEMO page looks like:
 
 ## Next Steps & EDP (Engineering Design Process)
 
-I am on step 2 of my EDP, which is **research** the problem. In terms of researching I mean learning my tool/tinkering. Now I am ready to _**Brainstorm**_ possible solutions. I will be brainstorming by working on my demo website. This will allow me to get an idea of how I want my final website to be.
+I finished step 2 of my EDP, which is **research** the problem. In terms of researching I mean learning my tool/tinkering. Now I am ready to _**Brainstorm**_ possible solutions. I will be brainstorming by working on my demo website. This will allow me to get an idea of how I want my final website to be.
 
 [Previous](entry01.md) | [Next](entry03.md)
 
