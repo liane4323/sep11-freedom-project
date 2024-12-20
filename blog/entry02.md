@@ -91,7 +91,7 @@ Like I said before, the difference in code is crystal clear. In my opinion, I wo
 
 ### DEMO WEBSITE 
 
-The first thing that I did was open my IDE and cd into my tool tinkering folder. After that I googled the HTML and CSS layout in order to get started. I placed the layout where it needed to be and started coding what I want my base to look like. I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes. I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand. After this, I linked in my tool using  <a href = "[https://cdnjs.com/libraries/easy-toggle-state]"> (CDN) </a>. For this freedom project I want to be able to project my thinking so future me could easily _progress_.
+The first thing that I did was open my IDE and cd into my tool tinkering folder. After that I googled the HTML and CSS layout in order to get started. I placed the layout where it needed to be and started coding what I want my base to look like. I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes. I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand. After this, I linked in my tool using  <a href = "https://cdnjs.com/libraries/easy-toggle-state" > (CDN) </a>. For this freedom project I want to be able to project my thinking so future me could easily _progress_.
 
 
 After finishing all the basics this is what my DEMO page looks like:
