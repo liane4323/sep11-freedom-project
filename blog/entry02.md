@@ -91,7 +91,7 @@ Like I said before, the difference in code is crystal clear. In my opinion, I wo
 
 ### DEMO WEBSITE 
 
-The first thing that I did was open my IDE and cd into my tool tinkering folder. After that I googled the HTML and CSS layout in order to get started. I placed the layout where it needed to be and started coding what I want my base to look like. I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes. I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand. _For this freedom project I want to be able to project my thinking so future me could easily progress_.
+The first thing that I did was open my IDE and cd into my tool tinkering folder. After that I googled the HTML and CSS layout in order to get started. I placed the layout where it needed to be and started coding what I want my base to look like. I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes. I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand. After this, I linked in my tool using  <a href = "[https://cdnjs.com/libraries/easy-toggle-state]" > (CDN) </a>. For this freedom project I want to be able to project my thinking so future me could easily _progress_.
 
 
 After finishing all the basics this is what my DEMO page looks like:
@@ -99,20 +99,16 @@ After finishing all the basics this is what my DEMO page looks like:
 
 <img width="1279" alt="Screenshot 2024-12-09 at 10 26 51 AM" src="https://github.com/user-attachments/assets/7cc22fed-fba1-4cf9-bba5-725cafd3d590">
 
-
-
-## EDP (Engineering Design Process)
-
-I am on step 2 of this process, which is **research** the problem. 
+* My winter break goal or this year is to implement my JS tool. I am planning to implement it by using the _concepts_ (ex: tabs, radio buttons) that I recently learnt. To make this an enjoyable goal I will be writing about things that I enjoy (culture, pets, flowers, etc). I will _create a timeline_ for me to follow so I can easily get my tasks done!
 
 ## Skill
 
-**Self-Discipline** is an important skill that I believe I touch up on the most. I believe that I worked on this skill because I made it my responsibility to complete my priority tasks first and give in my full effort. If I failed to do so, I took away the things that distracted me. For instance, I remember when I was in the process of completing my FP (freedom project) content, I got distracted by my phone for a period of 2 hours. I let myself waste 120 minutes instead of doing something productive. I felt unpleasant with my actions. I decided to step up and take action so I can ensure that I won't get distracted. I gave my phone to my sister to hold it for me until I was done with what I needed to complete. As a result, this occurrence made me wake up to my senses and see how important it is to have boundaries and limits within ourselves.
+**Self-Discipline** is an important skill that I believe I touch up on the most. I believe that I worked on this skill because I made it my responsibility to complete my priority tasks first and give in my full effort. If I failed to do so, I took away the things that distracted me. For instance, I remember when I was in the process of completing my FP (freedom project) content, I got distracted by my phone for a period of 2 hours. I let myself waste 120 minutes instead of doing something productive. I felt unpleasant with my actions. I decided to step up and take action so I can ensure that I won't get distracted. I gave my phone to my sister to hold it for me until I was done with what I needed to complete. By doing this, I practiced another skill of **productivity**. As a result, this occurrence made me wake up to my senses and see how important it is to have boundaries and limits within ourselves. 
 
 
-## Next Steps 
+## Next Steps & EDP (Engineering Design Process)
 
-Now I am ready to _**Brainstorm**_ possible solutions.
+I am on step 2 of my EDP, which is **research** the problem. In terms of researching I mean learning my tool/tinkering. Now I am ready to _**Brainstorm**_ possible solutions. I will be brainstorming by working on my demo website. This will allow me to get an idea of how I want my final website to be.
 
 [Previous](entry01.md) | [Next](entry03.md)
 
