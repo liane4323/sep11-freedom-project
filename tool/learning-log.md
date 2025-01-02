@@ -264,6 +264,8 @@ Without any CSS, this is what the original Checkbox looks like so far:
 
 <img width="191" alt="Screenshot 2025-01-01 at 9 12 19 PM" src="https://github.com/user-attachments/assets/2f464e3c-70a3-4417-ac28-5ca6ec6f4e93" />
 
+In my next log I will use the `toggleCheckbox` to create a series of questions on my DEMO website!
+
 
 
 
