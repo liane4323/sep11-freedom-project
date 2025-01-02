@@ -253,6 +253,18 @@ toggleState.toggle();  // false
 - The Easy Toggle State is a great tool when it comes to using booleans (true/false).
 - I learned that this tool helps the readability of code. It waters down everything and makes it easier for us to use
 
+On the demo website I tried creating a `toggleCheckbox`. Now that I'm trying to code it is kind of difficult but I will get through it. This is the code that I used
+
+``` js
+        <label for="toggleCheckbox">Toggle Checkbox</label>
+        <input type="checkbox" id="toggleCheckbox">
+```
+
+Without any CSS, this is what the original Checkbox looks like so far:
+
+<img width="191" alt="Screenshot 2025-01-01 at 9 12 19 PM" src="https://github.com/user-attachments/assets/2f464e3c-70a3-4417-ac28-5ca6ec6f4e93" />
+
+
 
 
 
