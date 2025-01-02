@@ -156,7 +156,11 @@ I inserted a HTML, CSS, and JS layout in order to be prepared for my upcoming De
     </head>
 
 ```
+<<<<<<< HEAD
 As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state" > CDN. I made sure to link the most recent and updated version so my code would be able to run smoothly
+=======
+As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state">CDN</a>. _I made sure to link the most recent and updated version so my code would be able to run smoothly_
+>>>>>>> 6c3ab81539ce79e130b210ac5aad0ca18792fbe0
 
 - One thing that I would like to keep up is include `<!-- comments -->` In order to be organized and keep notes to prep for the final Webpage
 
@@ -184,8 +188,13 @@ In the previous learning log, the main things that I focused on was picking anot
 * The first thing that I did was open my IDE and cd into my tool tinkering folder
    * After that I googled the HTML and CSS layout
    * I placed the layout where it needed to be and started coding what I want my base to look like
+<<<<<<< HEAD
 
 * I refreshed my memory on CSS code, one thing that I found very helpful was mt SEP10 notes
+=======
+ 
+* I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes
+>>>>>>> 6c3ab81539ce79e130b210ac5aad0ca18792fbe0
 * I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand
 * For this freedom project I want to be able to project my thinking so future me could easily progress
 
@@ -220,6 +229,59 @@ _tertiary colors_ = The combination of primary and secondary colors
 
 **Next up:** Improve the base + implement your tool!!!
 
+### 12/2/24: Learning Log 5
+N/A
+
+### 12/9/24: Learning Log 6 
+
+After all the CSS and Basic HTML code my DEMO cite is finalized and ready to go 
+
+Down below is a screenshot of the final CSS + Basic HTML look for my DEMO site:
+<img width="1279" alt="Screenshot 2024-12-09 at 10 26 51 AM" src="https://github.com/user-attachments/assets/7cc22fed-fba1-4cf9-bba5-725cafd3d590">
+
+
+Now that everything is set up, I need to learn more about my tool. 
+
+- I open up the <a href = "https://twikito.github.io/easy-toggle-state/" > Easy Toggle State </a> website.
+
+
+**_Basic State State_**
+
+```js 
+const toggleState = new ToggleState(false);
+
+// Toggle from false to true
+toggleState.toggle();  // true
+
+// Toggle back from true to false
+toggleState.toggle();  // false
+```
+**What I learnt:** When using new `ToggleState()`  I can initialize a state with a default value (in this case, false). The `toggle()` method automatically flips the state between true and false without needing to manually write it. This saves time and reduces the chances of mistakes in the code when managing boolean values. 
+
+
+- The Easy Toggle State is a great tool when it comes to using booleans (true/false).
+- I learned that this tool helps the readability of code. It waters down everything and makes it easier for us to use
+
+On the demo website I tried creating a `toggleCheckbox`. Now that I'm trying to code it is kind of difficult but I will get through it. This is the code that I used
+
+``` js
+        <label for="toggleCheckbox">Toggle Checkbox</label>
+        <input type="checkbox" id="toggleCheckbox">
+```
+
+Without any CSS, this is what the original Checkbox looks like so far:
+
+<img width="191" alt="Screenshot 2025-01-01 at 9 12 19 PM" src="https://github.com/user-attachments/assets/2f464e3c-70a3-4417-ac28-5ca6ec6f4e93" />
+
+In my next log I will use the `toggleCheckbox` to create a series of questions on my DEMO website!
+
+
+
+
+
+
+
+
 
 <!--
 * Links you used today (websites, videos, etc)
@@ -228,4 +290,3 @@ _tertiary colors_ = The combination of primary and secondary colors
 * Questions you still have
 * What you're going to try next
 -->
-
