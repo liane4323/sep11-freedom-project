@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(240deg, #eeaeca, #94bbe9, #f1d7e7);
+}
+
+h1 {
+    font-family: Courier;
+    margin: 25px;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: Courier;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+

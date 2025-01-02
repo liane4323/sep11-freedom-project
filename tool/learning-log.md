@@ -6,7 +6,7 @@
 
 ---
 
-### 9/30/24: Learning Log 1 
+### 9/30/24: Learning Log 1
 * First thing that I did was search up "Easy Toggle State for beginners" on Youtube, I only found tutorials on how to make toggles from scratch.
  * Instead of watching tutorials, I wanted to explore the <a href = "https://twikito.github.io/easy-toggle-state/" > Easy Toggle State </a> website.
 * When exploring the website of my tool, I took a look at the demo page. _The demo page is a website that developers made in order to show us how the concepts of this tool work._
@@ -29,7 +29,7 @@ Here 3 phrases that I have learnt + their meanings in my own words:
 
 
 
-### 10/21/24: Learning Log 2 
+### 10/21/24: Learning Log 2
 
  Starting off from where I left on the last log, the previous feature that I picked was Radio buttons. My main task for this learning log is to discover another feature that I will use for my Freedom Project Website. In order to find the most suitable, I will be _tinkering_.
 
@@ -38,7 +38,7 @@ Here 3 phrases that I have learnt + their meanings in my own words:
  * I saw a feature called **Tabs**
     * This reminded me of tabs open on a browsing app
     * I will be using Tabs as another feature that will be included in my Webpage
-* When looking at tabs, I saw that there was 3 versions of them. At first I didn't get the difference because the outcome of this feature was the same. However the code was very different 
+* When looking at tabs, I saw that there was 3 versions of them. At first I didn't get the difference because the outcome of this feature was the same. However the code was very different
 
 
 Below will be the three different tabs and the difference of each:
@@ -46,10 +46,10 @@ Below will be the three different tabs and the difference of each:
 * **tabs and arrow keys** - Adds keyboard accessibility, allowing users to navigate between tabs using arrow keys
 * **tabs with ARIA** - Enhances accessibility, enabling support for screen readers, etc
 
-I will provide example codes of each tab: 
+I will provide example codes of each tab:
 
 
-1. **Simple Tabs** 
+1. **Simple Tabs**
 
 ```js
 <div class="tabs">
@@ -63,7 +63,7 @@ I will provide example codes of each tab:
 
 ```
 
-2. **Tabs and Arrow Keys** 
+2. **Tabs and Arrow Keys**
 
 ```js
 let tabs = document.querySelectorAll('.tab');
@@ -82,7 +82,7 @@ tabs.forEach((tab, index) => {
 3. **Tabs with ARIA**
 
 
-html part of code: 
+html part of code:
 ```html
 <div role="tablist">
   <div role="tab" id="tab1" aria-controls="panel1" aria-selected="true" tabindex="0">Tab 1</div>
@@ -92,7 +92,7 @@ html part of code:
 <div role="tabpanel" id="panel2" aria-labelledby="tab2">Content for Tab 2</div>
 
 ```
-Javascript part of code: 
+Javascript part of code:
 
 ```js
 const tabs = document.querySelectorAll('[role="tab"]');
@@ -102,7 +102,7 @@ tabs.forEach(tab => {
   tab.addEventListener('click', function() {
     tabs.forEach(t => t.setAttribute('aria-selected', 'false'));
     panels.forEach(p => p.setAttribute('hidden', 'true'));
-    
+
     this.setAttribute('aria-selected', 'true');
     document.getElementById(this.getAttribute('aria-controls')).removeAttribute('hidden');
   });
@@ -111,10 +111,10 @@ tabs.forEach(tab => {
 ```
 
 
-Like I said before, the difference in code is crystal clear. In my opinion, I would say that ARIA Tabs are the most complex. One is the least complex on the list, while three is the most complex. Since I am a beginner to this tool, I will stick with the Simple Tabs. 
+Like I said before, the difference in code is crystal clear. In my opinion, I would say that ARIA Tabs are the most complex. One is the least complex on the list, while three is the most complex. Since I am a beginner to this tool, I will stick with the Simple Tabs.
 
 
-**Next up:** I will start working on my tinkering webpage in my IDE. 
+**Next up:** I will start working on my tinkering webpage in my IDE.
 
 ### 11/8/24: Learning Log 3
 
@@ -128,7 +128,7 @@ Previously, I picked another feature that I will be including in my website. I c
 * Going back to my start up progress from LL1 in my IDE, I created tinkering files that would be used for my "Tinkering Website"
 * I am planning to make this webesite to test out features that I learn/am willing to use.
 
-Here is an img of my IDE pov so far: 
+Here is an img of my IDE pov so far:
 <img width="375" alt="Screenshot 2024-11-11 at 7 32 25 PM" src="https://github.com/user-attachments/assets/a5cac76a-d574-4a54-8659-2fe1470dda4f">
 
 * I am willing to practice my CSS skills from past years in order to enhance my tinkering website.
@@ -156,7 +156,7 @@ I inserted a HTML, CSS, and JS layout in order to be prepared for my upcoming De
     </head>
 
 ```
-As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state" > CDN. I made sure to link the most recent and updated version so my code would be able to run smoothly 
+As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state" > CDN. I made sure to link the most recent and updated version so my code would be able to run smoothly
 
 - One thing that I would like to keep up is include `<!-- comments -->` In order to be organized and keep notes to prep for the final Webpage
 
@@ -172,42 +172,42 @@ As you can see above, I made sure everything in the `<head>` was sorted out and 
 My goal is to keep everything simple, but practice my JS skills using the tool that I am currently learning. I have to link my tool in order to use it but I am having trouble in doing so. I am finished with my prep and ready to go!
 
 
-**Next up:** Practice radio buttons 
+**Next up:** Practice radio buttons
 
 
 
 ### 11/18/24: Learning Log 4
 
-In the previous learning log, the main things that I focused on was picking another tool to use for my freedom project. In this learning log I will be using my previous knowledge of CSS and HTML to startt working on my demo website. 
+In the previous learning log, the main things that I focused on was picking another tool to use for my freedom project. In this learning log I will be using my previous knowledge of CSS and HTML to startt working on my demo website.
 
 
 * The first thing that I did was open my IDE and cd into my tool tinkering folder
    * After that I googled the HTML and CSS layout
    * I placed the layout where it needed to be and started coding what I want my base to look like
- 
+
 * I refreshed my memory on CSS code, one thing that I found very helpful was mt SEP10 notes
 * I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand
 * For this freedom project I want to be able to project my thinking so future me could easily progress
 
 * Let me show you a piece of information that came useful when I was working on my base for the demo website.
 
-Different type of inputs: 
+Different type of inputs:
 
 * text - `<input type="text" />`
 * checkbox - `<input type="checkbox" />`
 * radio - `<input type="radio" />`
 * button - `<input type="button" />`
 
-This was a note jotted down in my notes. In Unit 1: Basic Web Design, I thoroughly explained concepts in HTML and CSS with examples of the code. I can use my SEP10 notes as a resource for making my freeodm project this year. 
+This was a note jotted down in my notes. In Unit 1: Basic Web Design, I thoroughly explained concepts in HTML and CSS with examples of the code. I can use my SEP10 notes as a resource for making my freeodm project this year.
 
-Another thing that I accomplished during the duration of this learning log is finding the perfect CSS gradient for my demo website. The code that I used is: 
+Another thing that I accomplished during the duration of this learning log is finding the perfect CSS gradient for my demo website. The code that I used is:
 
 ```css
     background: linear-gradient(240deg, #eeaeca, #94bbe9, #f1d7e7);
 ```
 
- The color of a website is very important because: 
-  
+ The color of a website is very important because:
+
 * Colors on a website change the look of a website
 * Connect the user to your website
 * Affects how people feel
@@ -218,7 +218,7 @@ Another thing that I accomplished during the duration of this learning log is fi
 _tertiary colors_ = The combination of primary and secondary colors
 
 
-**Next up:** Improve the base + get ready to use JS (+ your tool!!)
+**Next up:** Improve the base + implement your tool!!!
 
 
 <!--
