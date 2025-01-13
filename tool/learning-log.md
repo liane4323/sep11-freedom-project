@@ -273,7 +273,48 @@ Without any CSS, this is what the original Checkbox looks like so far:
 
 <img width="191" alt="Screenshot 2025-01-01 at 9 12 19 PM" src="https://github.com/user-attachments/assets/2f464e3c-70a3-4417-ac28-5ca6ec6f4e93" />
 
-In my next log I will use the `toggleCheckbox` to create a series of questions on my DEMO website!
+In my next log, I will use the `toggleCheckbox` to create a series of questions on my DEMO website!
+
+
+### 1/3/25: Learning Log 7
+
+As stated in the previous log. I will create a series of questions using the `toggleCheckbox`. 
+
+The series of questions (Check for yes; leave blank for no):
+
+1. Do you like cake? 
+2. Have you worked out today?
+3. Do you have pets?
+4. Are you a teenager?
+5. Is your favorite color red?
+
+This is the list of questions that will be included in my DEMO site. 
+
+Code:
+
+``` js
+<ul>
+    <li>
+        <label for="toggleCheckbox">Do you like cake?</label>
+        <input type="checkbox" id="toggleCheckbox"></li>
+    <li>
+        <label for="toggleCheckbox">Have you worked out today?</label>
+        <input type="checkbox" id="toggleCheckbox"></li>
+    <li><label for="toggleCheckbox">Do you have pets?</label>
+        <input type="checkbox" id="toggleCheckbox">
+</li>
+<li><label for="toggleCheckbox">Are you a teenager?</label>
+    <input type="checkbox" id="toggleCheckbox"></li>
+    <li><label for="toggleCheckbox">Is your favorite color red?</label>
+        <input type="checkbox" id="toggleCheckbox"></li>
+  </ul>
+
+```
+
+This is what my code looks like at the very moment. I want to improve how it shows up on the webpage. Like the spacing and where/how it is adjusted 
+
+
+
 
 
 
