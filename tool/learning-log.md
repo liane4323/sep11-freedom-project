@@ -288,7 +288,9 @@ The series of questions (Check for yes; leave blank for no):
 4. Are you a teenager?
 5. Is your favorite color red?
 
-This is the list of questions that I will include into my DEMO website. 
+This is the list of questions that will be included in my DEMO site. 
+
+
 
 
 
