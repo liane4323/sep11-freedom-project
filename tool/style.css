@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(240deg, #eeaeca, #94bbe9, #f1d7e7);
+    background: rgb(255,177,242);
+    background: radial-gradient(circle, rgba(255,177,242,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 h1 {
@@ -15,4 +16,9 @@ p {
     padding: 10px;
     text-align: center;
 }
+
+main {
+    padding:80px;
+}
+
 
