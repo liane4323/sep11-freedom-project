@@ -290,8 +290,28 @@ The series of questions (Check for yes; leave blank for no):
 
 This is the list of questions that will be included in my DEMO site. 
 
+Code:
 
+``` js
+<ul>
+    <li>
+        <label for="toggleCheckbox">Do you like cake?</label>
+        <input type="checkbox" id="toggleCheckbox"></li>
+    <li>
+        <label for="toggleCheckbox">Have you worked out today?</label>
+        <input type="checkbox" id="toggleCheckbox"></li>
+    <li><label for="toggleCheckbox">Do you have pets?</label>
+        <input type="checkbox" id="toggleCheckbox">
+</li>
+<li><label for="toggleCheckbox">Are you a teenager?</label>
+    <input type="checkbox" id="toggleCheckbox"></li>
+    <li><label for="toggleCheckbox">Is your favorite color red?</label>
+        <input type="checkbox" id="toggleCheckbox"></li>
+  </ul>
 
+```
+
+This is what my code looks like at the very moment. I want to improve how it shows up on the webpage. Like the spacing and where/how it is adjusted 
 
 
 
