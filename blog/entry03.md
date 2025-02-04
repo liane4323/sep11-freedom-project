@@ -1,7 +1,9 @@
 # Entry 3
-##### X/X/XX
+##### 2/3/25
 
-Text
+In this entry:
+1. Update on previous goal
+2. 
 
 [Previous](entry02.md) | [Next](entry04.md)
 
