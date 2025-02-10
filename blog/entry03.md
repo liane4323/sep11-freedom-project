@@ -45,7 +45,7 @@ Down below is an explanation in my own words:
 ## Skill 
 
 **Self-Reflection** 
-One important skill I developed during my tinkering stage was self-reflection. After each session of learning Easy Toggle State JS, I made it a point to take a step back and mentally process what went well and what could be improved. For example, after tinkering, I reflected on the blocks of code and wrote comments. This skill helped me not only learn the code but also become more aware of what I was coding. Through this ongoing self-reflection, I feel like I developed a habit of constantly looking for ways to improve. And not just in coding but in how I learn new libraries and solving problems.
+One important skill I developed during my tinkering stage was self-reflection. After each session of learning Easy Toggle State JS, I made it a point to take a step back and mentally process what went well and what could be improved. _For example, after tinkering, I reflected on the blocks of code and wrote comments_. This skill helped me not only learn the code but also become more aware of what I was coding. Through this ongoing self-reflection, I feel like I developed a habit of constantly looking for ways to improve. And not just in coding but in how I learn new libraries and solving problems.
 
 
 
