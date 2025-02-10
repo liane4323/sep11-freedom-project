@@ -42,6 +42,7 @@ Down below is an explanation in my own words:
 - I found the <a href="https://twikito.github.io/easy-toggle-state/">official website</a> quite helpful for understanding how to implement the library in your own projects.
 - Exploring the <a href="https://github.com/Twikito/easy-toggle-state">GitHub repository</a> to see the source code and add to it.
 
+## Skills 
 
 
 
