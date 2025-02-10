@@ -1,4 +1,4 @@
-# Entry 3
+# Entry 3  ♡
 ##### 2/3/25
 
 In this entry:
