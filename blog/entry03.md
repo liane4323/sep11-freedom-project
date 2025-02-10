@@ -50,7 +50,7 @@ One important skill I developed during my tinkering stage was self-reflection. A
 
 ## Next Steps & EDP (Engineering Design Process)
 
-I am on step #3of my EDP, which is to _Brainstorm_ possible solutions. I will still be brainstorming by working on my demo website and learning new concepts which I can implement to my freedom project website 
+I am on step #3 of my EDP, which is to _Brainstorm_ possible solutions. I will still be brainstorming by working on my demo website and learning new concepts which I can implement to my freedom project website 
 
 
 
