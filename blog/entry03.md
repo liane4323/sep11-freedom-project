@@ -38,7 +38,7 @@ Down below is an explanation in my own words:
 * When you click the button, the `toggle.toggleState()` method switches between 'active' and 'inactive'.
 * The  text is updated to show the current state which is either _active_ or _inactive_.
 
-I found the <a href = "https://twikito.github.io/easy-toggle-state/" > (official website) quite helpful for understanding how to implement the library in your own projects. Also, exploring the <a href "https://github.com/Twikito/easy-toggle-state" > (GitHub repository) to see the source code and add to it 
+I found the <a href = "https://twikito.github.io/easy-toggle-state/" > (official website) quite helpful for understanding how to implement the library in your own projects. Also, exploring the <a href = "https://github.com/Twikito/easy-toggle-state" > (GitHub repository) to see the source code and add to it 
 
 
 
