@@ -14,7 +14,8 @@
   - [ ]   Webpage to collect user input & implement Easy Toggle State (Deadline: Mar 10)
     - [ ]   Create the HTML structure for the quiz start page
     - [ ]   Add input fields (e.g., radio buttons, text fields) for user responses
-    - [ ]   Use Easy Toggle State to toggle between quiz sections 
+    - [ ]   Use Easy Toggle State to toggle between quiz sections
+  
 - [ ]  Back-end
   - [ ] Create an array of quiz questions and answers (Deadline: Mar 17)
     - [ ] Define an array of objects 
