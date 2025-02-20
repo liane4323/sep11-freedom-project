@@ -21,7 +21,7 @@
       - [ ] Each object should include a question, answer choices, and personality type scores
   - [ ] Write functions to handle user input and calculate results (Deadline: Mar 24)
     - [ ] a function to calculate the final personality type based on user responses
-   - [ ] Use conditionals to determine quiz outcomes  (Deadline: Mar Apr 7)
+   - [ ] Use conditionals to determine quiz outcomes  (Deadline: Apr 7)
      - [ ] Use if-else statements to categorize users into personality types
    - [ ] Implement a loop to iterate through quiz questions (Deadline: Apr 14)
      - [ ] Use a for loop to dynamically generate quiz questions from the array
