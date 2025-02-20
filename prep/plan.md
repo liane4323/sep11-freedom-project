@@ -1,21 +1,44 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Easy Toggle State 
+## Product: Personality Quiz
 
 ---
 
+
 ## Timeline
 
-#### MVP
+### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Front-end
+  - [ ]   Webpage to collect user input & implement Easy Toggle State (Deadline: Mar 10)
+    - [ ]   Create the HTML structure for the quiz start page
+    - [ ]   Add input fields (e.g., radio buttons, text fields) for user responses
+    - [ ]   Use Easy Toggle State to toggle between quiz sections 
+- [ ]  Back-end
+  - [ ] Create an array of quiz questions and answers (Deadline: Mar 17)
+    - [ ] Define an array of objects 
+      - [ ] Each object should include a question, answer choices, and personality type scores
+  - [ ] Write functions to handle user input and calculate results (Deadline: Mar 24)
+    - [ ] a function to calculate the final personality type based on user responses
+   - [ ] Use conditionals to determine quiz outcomes  (Deadline: Mar Apr 7)
+     - [ ] Use if-else statements to categorize users into personality types
+   - [ ] Implement a loop to iterate through quiz questions (Deadline: Apr 14)
+     - [ ] Use a for loop to dynamically generate quiz questions from the array
+        
+      
+- [ ] Final Review!
+  - [ ] complete testing/final touches (**Deadline: Apr 21**)
+
+
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Apply CSS or Animations
+  - [ ] make website look better (wow.js?)
+
+
+
 
 
 <!-- EXAMPLE
