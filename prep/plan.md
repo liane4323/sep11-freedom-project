@@ -13,6 +13,7 @@
 - [ ] Front-end
   - [ ]   Webpage to collect user input & implement Easy Toggle State (Deadline: Mar 10)
     - [ ]   Create the HTML structure for the quiz start page
+      - [ ] _including the questions that will be asked_   
     - [ ]   Add input fields (e.g., radio buttons, text fields) for user responses
     - [ ]   Use Easy Toggle State to toggle between quiz sections
   
