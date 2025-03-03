@@ -312,7 +312,7 @@ Previously, I was using my Demo Site to test out the new coding that I learned. 
 
 By making this plan, I am ensuring that I will fully make use of my time and stay organized with my project.
 
-For the project, the first thing that I need to do is create the HTML structure for the quiz start page. This includes the questions that need to be asked. I came up with questions and did my research in this reading log.
+For the project, the first thing that I need to do is create the HTML structure for the quiz start page. This includes the questions that need to be asked. I *brainstormed* questions and did my *research* on different personality types in this reading log.
 
 Main 3 Types of Personality Traits:
 
