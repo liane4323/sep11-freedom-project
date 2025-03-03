@@ -156,11 +156,7 @@ I inserted a HTML, CSS, and JS layout in order to be prepared for my upcoming De
     </head>
 
 ```
-<<<<<<< HEAD
-As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state" > CDN. I made sure to link the most recent and updated version so my code would be able to run smoothly
-=======
 As you can see above, I made sure everything in the `<head>` was sorted out and linked. I then continued to write basic HTML code in order to start up my DEMO Page. I linked the Easy Toggle State JS from <a href = "https://cdnjs.com/libraries/easy-toggle-state">CDN</a>. _I made sure to link the most recent and updated version so my code would be able to run smoothly_
->>>>>>> 6c3ab81539ce79e130b210ac5aad0ca18792fbe0
 
 - One thing that I would like to keep up is include `<!-- comments -->` In order to be organized and keep notes to prep for the final Webpage
 
@@ -191,10 +187,6 @@ In the previous learning log, the main things that I focused on was picking anot
 <<<<<<< HEAD
 
 * I refreshed my memory on CSS code, one thing that I found very helpful was mt SEP10 notes
-=======
-
-* I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes
->>>>>>> 6c3ab81539ce79e130b210ac5aad0ca18792fbe0
 * I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand
 * For this freedom project I want to be able to project my thinking so future me could easily progress
 
