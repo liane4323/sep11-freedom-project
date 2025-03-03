@@ -308,26 +308,6 @@ This is what my code looks like at the very moment. I want to improve how it sho
 
 ### 2/24/25: Learning Log 8
 
-Previously, I was using my Demo Site to test out the new coding that I learnt. I will now be working on my Freedom Project webpage. The first thing that I did was create a <a href = "https://github.com/liane4323/sep11-freedom-project/blob/main/prep/plan.md "> plan </a> with deadlines.
-
-By making this plan I am ensuring that I will fully make use of my time and be organized with my Project that is coming up.
-
-For the project, the first thing that I need to do is create the HTML structure for the quiz start page. This includes the questions that need to be asked.
-
-
-Main 3 types of personality types: psychoticism, neuroticism, extraversion
-
-
-_psychoticism_: one that take risks, has anti-social behaviors, signs of impulsiveness.
-_neuroticism_: associated with negative emotions: anxiety, worry, fear.
-_extraversion_: energetic, social, and friendly person.
-
-Quiz Questions:
-  * Do you consider yourself selfish?
-  *
-
-
-
 Previously, I was using my Demo Site to test out the new coding that I learned. I will now be working on my Freedom Project webpage. The first thing that I did was create a <a href = "https://github.com/liane4323/sep11-freedom-project/blob/main/prep/plan.md "> plan </a> with deadlines.
 
 By making this plan, I am ensuring that I will fully make use of my time and stay organized with my project.
@@ -336,9 +316,9 @@ For the project, the first thing that I need to do is create the HTML structure 
 
 Main 3 Types of Personality Traits:
 
-* Psychoticism: A personality trait associated with risk-taking, impulsivity, and some antisocial behaviors.
-* Neuroticism: A trait linked to negative emotions such as anxiety, worry, and fear.
-* Extraversion: A personality type characterized by high energy, sociability, and friendliness.
+* **Psychoticism**: A personality trait associated with risk-taking, impulsivity, and some antisocial behaviors.
+* **Neuroticism**: A trait linked to negative emotions such as anxiety, worry, and fear.
+* **Extraversion**: A personality type characterized by high energy, sociability, and friendliness.
 
 
 Here are the Quiz Questions I came up with:
