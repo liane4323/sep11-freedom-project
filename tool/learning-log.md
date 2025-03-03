@@ -192,7 +192,7 @@ In the previous learning log, the main things that I focused on was picking anot
 
 * I refreshed my memory on CSS code, one thing that I found very helpful was mt SEP10 notes
 =======
- 
+
 * I refreshed my memory on CSS code, one thing that I found very helpful was my SEP10 notes
 >>>>>>> 6c3ab81539ce79e130b210ac5aad0ca18792fbe0
 * I am so grateful that I took specific notes on concepts that I didn't really get and paraphrase in order to properly understand
@@ -232,22 +232,22 @@ _tertiary colors_ = The combination of primary and secondary colors
 ### 12/2/24: Learning Log 5
 N/A
 
-### 12/9/24: Learning Log 6 
+### 12/9/24: Learning Log 6
 
-After all the CSS and Basic HTML code my DEMO cite is finalized and ready to go 
+After all the CSS and Basic HTML code my DEMO cite is finalized and ready to go
 
 Down below is a screenshot of the final CSS + Basic HTML look for my DEMO site:
 <img width="1279" alt="Screenshot 2024-12-09 at 10 26 51 AM" src="https://github.com/user-attachments/assets/7cc22fed-fba1-4cf9-bba5-725cafd3d590">
 
 
-Now that everything is set up, I need to learn more about my tool. 
+Now that everything is set up, I need to learn more about my tool.
 
 - I open up the <a href = "https://twikito.github.io/easy-toggle-state/" > Easy Toggle State </a> website.
 
 
 **_Basic State State_**
 
-```js 
+```js
 const toggleState = new ToggleState(false);
 
 // Toggle from false to true
@@ -256,7 +256,7 @@ toggleState.toggle();  // true
 // Toggle back from true to false
 toggleState.toggle();  // false
 ```
-**What I learnt:** When using new `ToggleState()`  I can initialize a state with a default value (in this case, false). The `toggle()` method automatically flips the state between true and false without needing to manually write it. This saves time and reduces the chances of mistakes in the code when managing boolean values. 
+**What I learnt:** When using new `ToggleState()`  I can initialize a state with a default value (in this case, false). The `toggle()` method automatically flips the state between true and false without needing to manually write it. This saves time and reduces the chances of mistakes in the code when managing boolean values.
 
 
 - The Easy Toggle State is a great tool when it comes to using booleans (true/false).
@@ -278,17 +278,17 @@ In my next log, I will use the `toggleCheckbox` to create a series of questions 
 
 ### 1/3/25: Learning Log 7
 
-As stated in the previous log. I will create a series of questions using the `toggleCheckbox`. 
+As stated in the previous log. I will create a series of questions using the `toggleCheckbox`.
 
 The series of questions (Check for yes; leave blank for no):
 
-1. Do you like cake? 
+1. Do you like cake?
 2. Have you worked out today?
 3. Do you have pets?
 4. Are you a teenager?
 5. Is your favorite color red?
 
-This is the list of questions that will be included in my DEMO site. 
+This is the list of questions that will be included in my DEMO site.
 
 Code:
 
@@ -311,18 +311,64 @@ Code:
 
 ```
 
-This is what my code looks like at the very moment. I want to improve how it shows up on the webpage. Like the spacing and where/how it is adjusted 
+This is what my code looks like at the very moment. I want to improve how it shows up on the webpage. Like the spacing and where/how it is adjusted
+
+
+### 2/24/25: Learning Log 8
+
+Previously, I was using my Demo Site to test out the new coding that I learnt. I will now be working on my Freedom Project webpage. The first thing that I did was create a <a href = "https://github.com/liane4323/sep11-freedom-project/blob/main/prep/plan.md "> plan </a> with deadlines.
+
+By making this plan I am ensuring that I will fully make use of my time and be organized with my Project that is coming up.
+
+For the project, the first thing that I need to do is create the HTML structure for the quiz start page. This includes the questions that need to be asked.
+
+
+Main 3 types of personality types: psychoticism, neuroticism, extraversion
+
+
+_psychoticism_: one that take risks, has anti-social behaviors, signs of impulsiveness.
+_neuroticism_: associated with negative emotions: anxiety, worry, fear.
+_extraversion_: energetic, social, and friendly person.
+
+Quiz Questions:
+  * Do you consider yourself selfish?
+  *
 
 
 
+Previously, I was using my Demo Site to test out the new coding that I learned. I will now be working on my Freedom Project webpage. The first thing that I did was create a <a href = "https://github.com/liane4323/sep11-freedom-project/blob/main/prep/plan.md "> plan </a> with deadlines.
+
+By making this plan, I am ensuring that I will fully make use of my time and stay organized with my project.
+
+For the project, the first thing that I need to do is create the HTML structure for the quiz start page. This includes the questions that need to be asked. I came up with questions and did my research in this reading log.
+
+Main 3 Types of Personality Traits:
+
+* Psychoticism: A personality trait associated with risk-taking, impulsivity, and some antisocial behaviors.
+* Neuroticism: A trait linked to negative emotions such as anxiety, worry, and fear.
+* Extraversion: A personality type characterized by high energy, sociability, and friendliness.
 
 
+Here are the Quiz Questions I came up with:
+
+Do you enjoy being the center of attention?
+Yes → Extraversion
+No → Neuroticism or Psychoticism
 
 
+Do you often act without thinking about the consequences?
+Yes → Psychoticism
+No → Neuroticism or Extraversion
 
 
+Do you get stressed or anxious easily?
+Yes → Neuroticism
+No → Psychoticism or Extraversion
 
 
+Do you prefer spending time alone rather than in a group?
+Yes → Neuroticism or Psychoticism
+No → Extraversion
 
 <!--
 * Links you used today (websites, videos, etc)
