@@ -310,7 +310,7 @@ This is what my code looks like at the very moment. I want to improve how it sho
 
 Previously, I was using my Demo Site to test out the new coding that I learned. I will now be working on my Freedom Project webpage. The first thing that I did was create a <a href = "https://github.com/liane4323/sep11-freedom-project/blob/main/prep/plan.md "> plan </a> with deadlines.
 
-By making this plan, I am ensuring that I will fully make use of my time and stay organized with my project.
+By making this plan, I am ensuring that I will fully make use of my time and stay organized with my project. I also read <a href = "https://kidshealth.org/en/teens/focused.html " > this website </a>  in order to get motivation for tackling school work ahead 
 
 For the project, the first thing that I need to do is create the HTML structure for the quiz start page. This includes the questions that need to be asked. I *brainstormed* questions and did my *research* on different personality types in this reading log.
 
