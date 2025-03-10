@@ -99,7 +99,7 @@ After finishing all the basics this is what my DEMO page looks like:
 
 <img width="1279" alt="Screenshot 2024-12-09 at 10 26 51 AM" src="https://github.com/user-attachments/assets/7cc22fed-fba1-4cf9-bba5-725cafd3d590">
 
-* My winter break goal or this year is to implement my JS tool. I am planning to implement it by using the _concepts_ (ex: tabs, radio buttons) that I recently learnt. To make this an enjoyable goal I will be writing about things that I enjoy (culture, pets, flowers, etc). I will _use my knowledge of my tool_ so I can easily get my tasks done!
+* My winter break goal of this year is to implement my JS tool. I am planning to implement it by using the _concepts_ (ex: tabs, radio buttons) that I recently learnt. To make this an enjoyable goal I will be writing about things that I enjoy (culture, pets, flowers, etc). I will _use my knowledge of my tool_ so I can easily get my tasks done!
 
 ## Skill
 
