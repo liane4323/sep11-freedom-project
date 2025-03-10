@@ -373,7 +373,7 @@ I used simple CSS to:
 * Set the layout so each quiz question appears sequentially as the user answers and clicks "Next."
 * Styled the buttons and other elements using _Bootstrap_
 
-Honorable mentions:<a href = "[https://www.freecodecamp.org/learn](https://www.w3schools.com/)"> W3schools </a> & <a href = "https://www.freecodecamp.org/learn"> freeCodeCamp </a>
+Honorable mentions:<a href = "https://www.w3schools.com/"> W3schools </a> & <a href = "https://www.freecodecamp.org/learn"> freeCodeCamp </a>
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
