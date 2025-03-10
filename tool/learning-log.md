@@ -348,6 +348,7 @@ For this learning log, I worked on building the initial structure for my persona
 
 
 **HTML Structure**
+
 I started by creating a basic HTML layout for the quiz, making sure that each quiz section was defined. I used the following:
 
 * Buttons to navigate through the quiz sections.
@@ -355,6 +356,7 @@ I started by creating a basic HTML layout for the quiz, making sure that each qu
 * A results section that will display the final personality type based on the answers provided.
 
 **JavaScript**
+
 To make the quiz interactive, I implemented two key JavaScript functions:
 
 * ``toggleSection(currentSection, nextSection)``
@@ -364,13 +366,14 @@ To make the quiz interactive, I implemented two key JavaScript functions:
  * This function collects the user’s answers and determines the personality type.
 
 **CSS Styling**
+
 I used simple CSS to:
 
 * Initially hide all quiz sections except for the first one
 * Set the layout so each quiz question appears sequentially as the user answers and clicks "Next."
 * Styled the buttons and other elements using _Bootstrap_
 
-Honorable mentions:<a href = "[https://www.freecodecamp.org/learn](https://www.w3schools.com/)"> W3schools <a/> & <a href = "https://www.freecodecamp.org/learn"> freeCodeCamp </a>
+Honorable mentions:<a href = "[https://www.freecodecamp.org/learn](https://www.w3schools.com/)"> W3schools </a> & <a href = "https://www.freecodecamp.org/learn"> freeCodeCamp </a>
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
