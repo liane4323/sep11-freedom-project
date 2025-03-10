@@ -1,29 +1,109 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
-            
-        </style>
-        
-        <title>Title</title>
-    </head>
-    <body>
-        <!-- HTML -->
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
-        <script>
-            // JS
-            
-            
-        </script>
-    </body>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <title>Personality Quiz</title>
+    
+    <style>
+        /* CSS to hide sections at first */
+        .quiz-section {
+            display: none;
+        }
+        #quiz-section-1 {
+            display: block; /* Show first section */
+        }
+    </style>
+</head>
+<body class="container py-4">
+
+    <!-- Quiz Start Section -->
+    <div id="quiz-section-1" class="quiz-section">
+        <h2>Welcome to the Personality Quiz!</h2>
+        <p>Click below to start the quiz.</p>
+        <button class="btn btn-primary" onclick="toggleSection('quiz-section-1', 'question-1')">Start Quiz</button>
+    </div>
+
+    <!-- Question 1 -->
+    <div id="question-1" class="quiz-section">
+        <p>1. Do you enjoy being the center of attention?</p>
+        <input type="radio" id="q1-yes" name="q1" value="Yes"> <label for="q1-yes">Yes</label><br>
+        <input type="radio" id="q1-no" name="q1" value="No"> <label for="q1-no">No</label><br>
+        <button class="btn btn-primary" onclick="toggleSection('question-1', 'question-2')">Next</button>
+    </div>
+
+    <!-- Question 2 -->
+    <div id="question-2" class="quiz-section">
+        <p>2. Do you often act without thinking about the consequences?</p>
+        <input type="radio" id="q2-yes" name="q2" value="Yes"> <label for="q2-yes">Yes</label><br>
+        <input type="radio" id="q2-no" name="q2" value="No"> <label for="q2-no">No</label><br>
+        <button class="btn btn-primary" onclick="toggleSection('question-2', 'question-3')">Next</button>
+    </div>
+
+    <!-- Question 3 -->
+    <div id="question-3" class="quiz-section">
+        <p>3. Do you get stressed or anxious easily?</p>
+        <input type="radio" id="q3-yes" name="q3" value="Yes"> <label for="q3-yes">Yes</label><br>
+        <input type="radio" id="q3-no" name="q3" value="No"> <label for="q3-no">No</label><br>
+        <button class="btn btn-primary" onclick="toggleSection('question-3', 'question-4')">Next</button>
+    </div>
+
+    <!-- Question 4 -->
+    <div id="question-4" class="quiz-section">
+        <p>4. Do you prefer spending time alone rather than in a group?</p>
+        <input type="radio" id="q4-yes" name="q4" value="Yes"> <label for="q4-yes">Yes</label><br>
+        <input type="radio" id="q4-no" name="q4" value="No"> <label for="q4-no">No</label><br>
+        <button class="btn btn-primary" onclick="showResults()">Finish</button>
+    </div>
+
+    <!-- Results Section -->
+    <div id="results" class="quiz-section">
+        <h3>Your Personality Type:</h3>
+        <p id="result-text">Your result will appear here!</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Toggle between quiz sections
+        function toggleSection(currentSection, nextSection) {
+            document.getElementById(currentSection).style.display = "none";
+            document.getElementById(nextSection).style.display = "block";
+        }
+
+        // Show results based on user answers
+        function showResults() {
+            const answers = {
+                q1: document.querySelector('input[name="q1"]:checked')?.value,
+                q2: document.querySelector('input[name="q2"]:checked')?.value,
+                q3: document.querySelector('input[name="q3"]:checked')?.value,
+                q4: document.querySelector('input[name="q4"]:checked')?.value
+            };
+
+            if (Object.values(answers).includes(undefined)) {
+                alert("Please answer all questions.");
+                return;
+            }
+
+            let result = "";
+            if (answers.q1 === "Yes" && answers.q2 === "No" && answers.q3 === "Yes" && answers.q4 === "No") {
+                result = "Extraversion";
+            } else if (answers.q1 === "No" && answers.q2 === "Yes" && answers.q3 === "Yes" && answers.q4 === "Yes") {
+                result = "Neuroticism";
+            } else {
+                result = "Psychoticism";
+            }
+
+            document.getElementById("result-text").innerText = `Your personality type is: ${result}`;
+            document.getElementById("results").style.display = "block"; 
+        }
+    </script>
+</body>
 </html>
