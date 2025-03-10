@@ -342,6 +342,35 @@ Do you prefer spending time alone rather than in a group?
 Yes → Neuroticism or Psychoticism
 No → Extraversion
 
+
+### 3/10/25: Learning Log 9
+For this learning log, I worked on building the initial structure for my personality quiz website. I used _HTML, CSS, and JavaScript_ to set up the quiz’s front-end and ensure smooth transitions between the quiz sections. Here's a breakdown of what I did:
+
+
+**HTML Structure**
+I started by creating a basic HTML layout for the quiz, making sure that each quiz section was defined. I used the following:
+
+* Buttons to navigate through the quiz sections.
+* Radio buttons for users to select their answers ("Yes" or "No").
+* A results section that will display the final personality type based on the answers provided.
+
+**JavaScript**
+To make the quiz interactive, I implemented two key JavaScript functions:
+
+* ``toggleSection(currentSection, nextSection)``
+ * This function hides the current section and shows the next section when a user clicks "Next." It allows the quiz to move from one question to the next without refreshing the page. 
+
+* ``showResults():``
+ * This function collects the user’s answers and determines the personality type.
+
+**CSS Styling**
+I used simple CSS to:
+
+* Initially hide all quiz sections except for the first one
+* Set the layout so each quiz question appears sequentially as the user answers and clicks "Next."
+* Styled the buttons and other elements using _Bootstrap_
+
+Honorable mentions:<a href = "[https://www.freecodecamp.org/learn](https://www.w3schools.com/)"> W3schools <a/> & <a href = "https://www.freecodecamp.org/learn"> freeCodeCamp </a>
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
