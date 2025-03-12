@@ -12,7 +12,7 @@ During the past few weeks, I have started working on my final Freedom Project. I
 
 
 ## Skill 
-Throughout the making of this entry, I have touched upon some skills. Those of which are: LOYO & 
+Throughout the making of this entry, I have touched upon some skills. 
 
 ## Next Step
 
