@@ -374,6 +374,54 @@ I used simple CSS to:
 * Styled the buttons and other elements using _Bootstrap_
 
 Honorable mentions:<a href = "https://www.w3schools.com/"> W3schools </a> & <a href = "https://www.freecodecamp.org/learn"> freeCodeCamp </a>
+
+
+### 3/17/25: Learning Log 10 
+
+
+In this log, I focused on building the core structure of my personality quiz. I defined an array of objects to store quiz questions, answer choices, and scores based on personality types. 
+
+
+**Key Accomplishments:**
+1. Defining the Quiz Data Structure (Array of Objects)
+I created an array where each object represents a question.
+
+
+_Example of an array object structure:_
+
+```
+const questions = [
+  {
+    question: "What’s your favorite activity?",
+    answers: [
+      { text: "Reading", score: 2 }, 
+      { text: "Sports", score: 1 },
+      { text: "Music", score: 3 }
+    ]
+  },
+];
+```
+
+This structure helps keep everything organized as the quiz evolves.
+
+
+
+**Challenges & Solutions:**
+Structuring the Scoring System: I had to figure out how to assign scores to answers so that personality traits could be calculated correctly. I used key-value pairs inside each object to map answers to specific personality scores.
+
+Example:
+
+
+```{ text: "Reading", score: 2 } // Mapping "Reading" to a score```
+
+I tested different ways to retrieve and display questions, aiming to make the transitions feel smooth for the user.
+
+Next Steps:
+Finalize the array and test the functionality to ensure it correctly stores and retrieves data.
+Write functions to calculate quiz results based on user input (Deadline: Mar 24).
+Improve the user experience by refining how questions are displayed and making transitions between sections smoother.
+
+This week, I’ve made great progress by building a solid foundation for my quiz. The structure I’ve set up makes it easy to add more questions and expand the quiz later. Excited to move forward with the result calculations next!
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
