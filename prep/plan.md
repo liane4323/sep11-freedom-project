@@ -17,10 +17,10 @@
     - [x]   Add input fields (e.g., radio buttons, text fields) for user responses
     - [x]   Use Easy Toggle State to toggle between quiz sections
   
-- [ ]  Back-end
-  - [ ] Create an array of quiz questions and answers (Deadline: Mar 17)
-    - [ ] Define an array of objects 
-      - [ ] Each object should include a question, answer choices, and personality type scores
+- [x]  Back-end
+  - [x] Create an array of quiz questions and answers (Deadline: Mar 17)
+    - [x] Define an array of objects 
+      - [x] Each object should include a question, answer choices, and personality type scores
   - [ ] Write functions to handle user input and calculate results (Deadline: Mar 24)
     - [ ] a function to calculate the final personality type based on user responses
    - [ ] Use conditionals to determine quiz outcomes  (Deadline: Apr 7)
