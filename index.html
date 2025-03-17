@@ -72,38 +72,83 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     
     <script>
+        // Define quiz questions and scoring system
+        const questions = [
+            {
+                question: "Do you enjoy being the center of attention?",
+                answers: [
+                    { text: "Yes", score: 2 },
+                    { text: "No", score: 1 }
+                ]
+            },
+            {
+                question: "Do you often act without thinking about the consequences?",
+                answers: [
+                    { text: "Yes", score: 3 },
+                    { text: "No", score: 1 }
+                ]
+            },
+            {
+                question: "Do you get stressed or anxious easily?",
+                answers: [
+                    { text: "Yes", score: 3 },
+                    { text: "No", score: 1 }
+                ]
+            },
+            {
+                question: "Do you prefer spending time alone rather than in a group?",
+                answers: [
+                    { text: "Yes", score: 1 },
+                    { text: "No", score: 2 }
+                ]
+            }
+        ];
+
         // Toggle between quiz sections
         function toggleSection(currentSection, nextSection) {
             document.getElementById(currentSection).style.display = "none";
             document.getElementById(nextSection).style.display = "block";
         }
 
+        // Display questions dynamically
+        function displayQuestion(index) {
+            const questionObj = questions[index];
+            const questionText = document.querySelector(`#question-${index + 1} p`);
+            questionText.textContent = `${index + 1}. ${questionObj.question}`;
+            
+            const options = document.querySelectorAll(`#question-${index + 1} input`);
+            options.forEach((option, idx) => {
+                option.nextElementSibling.textContent = questionObj.answers[idx].text;
+            });
+        }
+
         // Show results based on user answers
         function showResults() {
-            const answers = {
-                q1: document.querySelector('input[name="q1"]:checked')?.value,
-                q2: document.querySelector('input[name="q2"]:checked')?.value,
-                q3: document.querySelector('input[name="q3"]:checked')?.value,
-                q4: document.querySelector('input[name="q4"]:checked')?.value
-            };
-
-            if (Object.values(answers).includes(undefined)) {
-                alert("Please answer all questions.");
-                return;
-            }
+            let totalScore = 0;
+            
+            questions.forEach((question, index) => {
+                const selectedAnswer = document.querySelector(`#q${index + 1}:checked`);
+                if (selectedAnswer) {
+                    const answer = question.answers.find(ans => ans.text === selectedAnswer.value);
+                    totalScore += answer.score;
+                }
+            });
 
             let result = "";
-            if (answers.q1 === "Yes" && answers.q2 === "No" && answers.q3 === "Yes" && answers.q4 === "No") {
-                result = "Extraversion";
-            } else if (answers.q1 === "No" && answers.q2 === "Yes" && answers.q3 === "Yes" && answers.q4 === "Yes") {
-                result = "Neuroticism";
+            if (totalScore <= 6) {
+                result = "Introvert";
+            } else if (totalScore <= 8) {
+                result = "Ambivert";
             } else {
-                result = "Psychoticism";
+                result = "Extravert";
             }
 
             document.getElementById("result-text").innerText = `Your personality type is: ${result}`;
             document.getElementById("results").style.display = "block"; 
         }
+
+        // Initialize first question display
+        displayQuestion(0);
     </script>
 </body>
 </html>
