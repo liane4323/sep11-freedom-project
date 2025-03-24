@@ -418,7 +418,7 @@ I tested different ways to retrieve and display questions, aiming to make the tr
 
 Next Steps:
 Finalize the array and test the functionality to ensure it correctly stores and retrieves data.
-Write functions to calculate quiz results based on user input (Deadline: Mar 24).
+Write functions to calculate quiz results based on user input.
 Improve the user experience by refining how questions are displayed and making transitions between sections smoother.
 
 This week, I’ve made great progress by building a solid foundation for my quiz. The structure I’ve set up makes it easy to add more questions and expand the quiz later. Excited to move forward with the result calculations next!
