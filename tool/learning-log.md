@@ -422,6 +422,35 @@ Write functions to calculate quiz results based on user input.
 Improve the user experience by refining how questions are displayed and making transitions between sections smoother.
 
 This week, I’ve made great progress by building a solid foundation for my quiz. The structure I’ve set up makes it easy to add more questions and expand the quiz later. Excited to move forward with the result calculations next!
+
+### 4/1/25: Learning Log 11
+
+In this log, I restructured the quiz questions into a more efficient format, making it easier to retrieve and score user responses. Additionally, I refined the JavaScript functions responsible for handling user input, calculating quiz results, and displaying questions.
+
+
+* Improved Quiz Flow: Instead of hardcoding each question into the HTML, I implemented a function to dynamically load and display each question.
+* Smoother Transitions: Sections now fade in and out smoothly to create a more polished user experience.
+* Error Handling: Users must select an answer before proceeding, preventing skipped questions and ensuring accurate results.
+* Refined Scoring System: The quiz now correctly sums user scores and determines their personality type
+
+  
+``` js 
+function loadQuestion() {
+    let questionObj = questions[currentQuestion]; // Get the current question object from the array
+    document.getElementById("question-text").textContent = questionObj.question; // Display the question text
+
+    let optionsContainer = document.getElementById("options"); // Select the div where options will go
+    optionsContainer.innerHTML = ""; // Clear previous question's options
+
+    questionObj.answers.forEach((answer, index) => { // Loop through answer choices
+        let input = `<input type='radio' name='answer' value='${questionObj.scores[index]}'> ${answer}<br>`; // Create a radio button input
+        optionsContainer.innerHTML += input; // Add the input to the options container
+    });
+}
+```
+This function pulls the current question from the questions array, updates the question in the HTML, and generates answer option as radio buttons. 
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
