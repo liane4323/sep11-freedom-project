@@ -21,16 +21,16 @@
   - [x] Create an array of quiz questions and answers (Deadline: Mar 17)
     - [x] Define an array of objects 
       - [x] Each object should include a question, answer choices, and personality type scores
-  - [ ] Write functions to handle user input and calculate results (Deadline: Mar 24)
-    - [ ] a function to calculate the final personality type based on user responses
-   - [ ] Use conditionals to determine quiz outcomes  (Deadline: Apr 7)
-     - [ ] Use if-else statements to categorize users into personality types
-   - [ ] Implement a loop to iterate through quiz questions (Deadline: Apr 14)
-     - [ ] Use a for loop to dynamically generate quiz questions from the array
+  - [x] Write functions to handle user input and calculate results (Deadline: Mar 24)
+    - [x] a function to calculate the final personality type based on user responses
+   - [x] Use conditionals to determine quiz outcomes  (Deadline: Apr 7)
+     - [x] Use if-else statements to categorize users into personality types
+   - [x] Implement a loop to iterate through quiz questions (Deadline: Apr 14)
+     - [x] Use a for loop to dynamically generate quiz questions from the array
         
       
-- [ ] Final Review!
-  - [ ] complete testing/final touches (**Deadline: Apr 21**)
+- [x] Final Review!
+  - [x] complete testing/final touches (**Deadline: Apr 21**)
 
 
 
@@ -38,6 +38,7 @@
 
 - [ ] Apply CSS or Animations
   - [ ] make website look better (wow.js?)
+- [ ] Fix the quiz outcome for other options
 
 
 
