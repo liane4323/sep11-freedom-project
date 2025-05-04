@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required meta tags for proper page structure -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Including Bootstrap CSS for styling -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Personality Quiz</title>
+    
     <style>
+        /* Hide quiz sections initially */
         .quiz-section {
             display: none;
         }
+        /* Show the first section when the page loads */
         #quiz-section-1 {
             display: block;
         }
@@ -62,10 +68,11 @@
         <p id="result-text">Your result will appear here!</p>
     </div>
 
-    <!-- Bootstrap JS -->
+    <!-- Bootstrap JS for dynamic features -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     
     <script>
+        // Define quiz questions and their possible answers with assigned scores
         const questions = [
             {
                 question: "Do you enjoy being the center of attention?",
@@ -97,35 +104,32 @@
             }
         ];
 
+        // Function to toggle between sections (questions)
         function toggleSection(currentSection, nextSection) {
-            document.getElementById(currentSection).style.display = "none";
-            document.getElementById(nextSection).style.display = "block";
+            document.getElementById(currentSection).style.display = "none";  // Hide current section
+            document.getElementById(nextSection).style.display = "block";   // Show next section
         }
 
-        function displayQuestion(index) {
-            const questionObj = questions[index];
-            const questionText = document.querySelector(`#question-${index + 1} p`);
-            questionText.textContent = `${index + 1}. ${questionObj.question}`;
-            
-            const options = document.querySelectorAll(`#question-${index + 1} input`);
-            options.forEach((option, idx) => {
-                option.nextElementSibling.textContent = questionObj.answers[idx].text;
-            });
-        }
-
+        // Show results based on user answers
         function showResults() {
-            let totalScore = 0;
-            
+            let totalScore = 0;  // Initialize total score to 0
+
+            // Loop through each question to get the selected answer and calculate the score
             questions.forEach((question, index) => {
+                // Get the selected radio button for the current question using name attribute
                 const selectedAnswer = document.querySelector(`input[name="q${index + 1}"]:checked`);
+                
                 if (selectedAnswer) {
+                    // Find the corresponding answer object based on user selection
                     const answer = question.answers.find(ans => ans.text === selectedAnswer.value);
+                    
                     if (answer) {
-                        totalScore += answer.score;
+                        totalScore += answer.score;  // Add score to total
                     }
                 }
             });
 
+            // Determine the result based on the total score
             let result = "";
             if (totalScore <= 6) {
                 result = "Introvert";
@@ -135,12 +139,10 @@
                 result = "Extravert";
             }
 
+            // Show the result on the page
             document.getElementById("result-text").innerText = `Your personality type is: ${result}`;
-            document.getElementById("results").style.display = "block"; 
+            document.getElementById("results").style.display = "block";  // Show the results section
         }
-
-        // Initialize first question 
-        displayQuestion(0);
     </script>
 </body>
 </html>
