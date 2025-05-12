@@ -62,7 +62,7 @@
 </head>
 <body class="container py-4">
 
-  <!-- Quiz Start Section -->
+  <!-- Welcome Section -->
   <div id="quiz-section-1" class="quiz-section wow animate__animated animate__fadeIn">
     <h2>Welcome to the Personality Quiz!</h2>
     <p>Click below to start the quiz</p>
@@ -115,29 +115,29 @@
       {
         question: "Do you enjoy being the center of attention?",
         answers: [
-          { text: "Yes", score: 2 },
-          { text: "No", score: 1 }
+          { text: "Yes", score: 2, trait: "extrovert" },
+          { text: "No", score: 1, trait: "introvert" }
         ]
       },
       {
         question: "Do you often act without thinking about the consequences?",
         answers: [
-          { text: "Yes", score: 3 },
-          { text: "No", score: 1 }
+          { text: "Yes", score: 3, trait: "extrovert" },
+          { text: "No", score: 1, trait: "introvert" }
         ]
       },
       {
         question: "Do you get stressed or anxious easily?",
         answers: [
-          { text: "Yes", score: 3 },
-          { text: "No", score: 1 }
+          { text: "Yes", score: 3, trait: "introvert" },
+          { text: "No", score: 1, trait: "extrovert" }
         ]
       },
       {
         question: "Do you prefer spending time alone rather than in a group?",
         answers: [
-          { text: "Yes", score: 1 },
-          { text: "No", score: 2 }
+          { text: "Yes", score: 1, trait: "introvert" },
+          { text: "No", score: 2, trait: "extrovert" }
         ]
       }
     ];
@@ -147,44 +147,33 @@
       document.getElementById(nextSection).style.display = "block";
     }
 
-    function displayQuestion(index) {
-      const questionObj = questions[index];
-      const questionText = document.querySelector(`#question-${index + 1} p`);
-      questionText.textContent = `${index + 1}. ${questionObj.question}`;
-
-      const options = document.querySelectorAll(`#question-${index + 1} input`);
-      options.forEach((option, idx) => {
-        option.nextElementSibling.textContent = questionObj.answers[idx].text;
-      });
-    }
-
     function showResults() {
-      let totalScore = 0;
+      let extrovertPoints = 0;
+      let introvertPoints = 0;
 
       questions.forEach((question, index) => {
         const selectedAnswer = document.querySelector(`input[name="q${index + 1}"]:checked`);
         if (selectedAnswer) {
           const answer = question.answers.find(ans => ans.text === selectedAnswer.value);
           if (answer) {
-            totalScore += answer.score;
+            if (answer.trait === "extrovert") extrovertPoints += answer.score;
+            if (answer.trait === "introvert") introvertPoints += answer.score;
           }
         }
       });
 
       let result = "";
-      if (totalScore <= 6) {
+      if (extrovertPoints > introvertPoints + 2) {
+        result = "Extrovert";
+      } else if (introvertPoints > extrovertPoints + 2) {
         result = "Introvert";
-      } else if (totalScore <= 8) {
-        result = "Ambivert";
       } else {
-        result = "Extravert";
+        result = "Ambivert";  // Ambivert result if scores are close (two points away)
       }
 
       document.getElementById("result-text").innerText = `Your personality type is: ${result}`;
       document.getElementById("results").style.display = "block";
     }
-
-    displayQuestion(0);
   </script>
 </body>
 </html>
