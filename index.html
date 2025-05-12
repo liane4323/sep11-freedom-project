@@ -113,13 +113,14 @@
   <div id="results" class="quiz-section wow animate__animated animate__fadeIn">
     <h3>Your Personality Type:</h3>
     <p id="result-text">Your result will appear here!</p>
-    
-    <!-- Personality Definitions -->
-    <div id="personality-definitions" class="definition">
-      <p id="extrovert-def" style="display:none;">You are an extrovert. Extroverts are outgoing, sociable, and enjoy being around others. They gain energy from social interactions and tend to thrive in social settings.</p>
-      <p id="introvert-def" style="display:none;">You are an introvert. Introverts are more reserved, preferring solitude or smaller, intimate groups. They tend to recharge alone and are often introspective.</p>
-      <p id="ambivert-def" style="display:none;">You are an ambivert. Ambiverts have characteristics of both extroverts and introverts. They enjoy social interaction but also need time to themselves to recharge.</p>
-    </div>
+  </div>
+
+  <!-- Personality Definitions -->
+  <div id="personality-definitions" class="definition">
+    <h3>Personality Types</h3>
+    <p><strong>Extrovert:</strong> Extroverts are outgoing, sociable, and enjoy being around others. They gain energy from social interactions and tend to thrive in social settings.</p>
+    <p><strong>Introvert:</strong> Introverts are more reserved, preferring solitude or smaller, intimate groups. They tend to recharge alone and are often introspective.</p>
+    <p><strong>Ambivert:</strong> Ambiverts have characteristics of both extroverts and introverts. They enjoy social interaction but also need time to themselves to recharge.</p>
   </div>
 
   <!-- Bootstrap JS -->
@@ -178,23 +179,16 @@
       });
 
       let result = "";
-      let definition = "";
-
       if (extrovertPoints > introvertPoints + 2) {
         result = "Extrovert";
-        definition = "extrovert-def";
       } else if (introvertPoints > extrovertPoints + 2) {
         result = "Introvert";
-        definition = "introvert-def";
       } else {
         result = "Ambivert";
-        definition = "ambivert-def";
       }
 
       document.getElementById("result-text").innerText = `Your personality type is: ${result}`;
       document.getElementById("results").style.display = "block";
-      document.getElementById(definition).style.display = "block";
     }
   </script>
-</body>
-</html>
+</b
