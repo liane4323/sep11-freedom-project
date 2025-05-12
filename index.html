@@ -58,6 +58,14 @@
     .btn-custom:hover {
       background-color: #ffd43b;
     }
+
+    .definition {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #ffedb3;
+      border-radius: 8px;
+      font-size: 1.1rem;
+    }
   </style>
 </head>
 <body class="container py-4">
@@ -105,6 +113,13 @@
   <div id="results" class="quiz-section wow animate__animated animate__fadeIn">
     <h3>Your Personality Type:</h3>
     <p id="result-text">Your result will appear here!</p>
+    
+    <!-- Personality Definitions -->
+    <div id="personality-definitions" class="definition">
+      <p id="extrovert-def" style="display:none;">You are an extrovert. Extroverts are outgoing, sociable, and enjoy being around others. They gain energy from social interactions and tend to thrive in social settings.</p>
+      <p id="introvert-def" style="display:none;">You are an introvert. Introverts are more reserved, preferring solitude or smaller, intimate groups. They tend to recharge alone and are often introspective.</p>
+      <p id="ambivert-def" style="display:none;">You are an ambivert. Ambiverts have characteristics of both extroverts and introverts. They enjoy social interaction but also need time to themselves to recharge.</p>
+    </div>
   </div>
 
   <!-- Bootstrap JS -->
@@ -163,16 +178,22 @@
       });
 
       let result = "";
+      let definition = "";
+
       if (extrovertPoints > introvertPoints + 2) {
         result = "Extrovert";
+        definition = "extrovert-def";
       } else if (introvertPoints > extrovertPoints + 2) {
         result = "Introvert";
+        definition = "introvert-def";
       } else {
-        result = "Ambivert";  // Ambivert result if scores are close (two points away)
+        result = "Ambivert";
+        definition = "ambivert-def";
       }
 
       document.getElementById("result-text").innerText = `Your personality type is: ${result}`;
       document.getElementById("results").style.display = "block";
+      document.getElementById(definition).style.display = "block";
     }
   </script>
 </body>
