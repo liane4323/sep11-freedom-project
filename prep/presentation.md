@@ -1,16 +1,27 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Ask: “Have you ever wondered what your true personality type is?”
+* Set the mood: “Well, I made a quiz to help you find out!”
+  
 
 ## Product
-* 
+* Why I wanted to create a Personality Quiz (What was my goal/achievement?) 
+* Show the live website and demo the quiz ( maybe answer as a class?)
+
 
 ## Process
-* 
+* Built the quiz using HTML, CSS, Wow.js, and Easy Toggle State
+* Code snippets of using Easy Toggle State tool and explain it 
+* Talk about the array of questions and how each one adds points toward a personality (functionality of the quiz)
+* An issue that occured during the making ( maybe how the answer choices were not accurate because of the amount of questions?) 
+
 
 ## Conclusion
-* 
+* Elaborate on what I did to solve the issue
+* Takeaways --> skills that I got 
+* Yellkey to project
+* Final ending slide 
 
 <!-- EXAMPLE
 
