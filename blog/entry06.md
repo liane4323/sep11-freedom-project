@@ -1,4 +1,4 @@
-# Entry 6
+# Entry 6 ♡
 ##### 5/16/25
 
 ## Content
