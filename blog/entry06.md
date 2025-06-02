@@ -36,11 +36,11 @@ I developed my public speaking skills in several ways throughout this project. F
 One way I practiced accountability was by creating the Google Slides for this presentation. I held myself responsible for completing it thoroughly and meeting the deadline. I’ve also practiced this skill in many other classes. For example, by making sure I complete my homework on time. Overall, I would say that I’ve demonstrated accountability numerous times, and I’m continuing to learn, step by step, how to become more independent and take full responsibility for my work.
 
 
-## Sources 
+## Sources
+- [Code](https://github.com/liane4323/sep11-freedom-project/blob/main/index.html)
+- [Preview](https://liane4323.github.io/sep11-freedom-project/)
+- [Presentation](https://docs.google.com/presentation/d/1Vy4m5zl3Z0J83wiOg1_8fu5u9zxmaekK90MtenDE1tY/edit#slide=id.g357eb1a2f2b_0_204)
 
-* [Code] https://github.com/liane4323/sep11-freedom-project/blob/main/index.html
-* [Preview] (https://liane4323.github.io/sep11-freedom-project/)
-* [Presentation] (https://docs.google.com/presentation/d/1Vy4m5zl3Z0J83wiOg1_8fu5u9zxmaekK90MtenDE1tY/edit#slide=id.g357eb1a2f2b_0_204)
 
 
 
