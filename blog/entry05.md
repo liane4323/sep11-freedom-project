@@ -1,4 +1,4 @@
-# Entry 5
+# Entry 5 ♡
 ##### 4/28/25
 
 In this entry:
