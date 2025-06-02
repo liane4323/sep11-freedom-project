@@ -38,7 +38,7 @@ One way I practiced accountability was by creating the Google Slides for this pr
 
 ## Sources 
 
-* [Code] (https://github.com/liane4323/sep11-freedom-project/blob/main/index.html)
+* [Code] https://github.com/liane4323/sep11-freedom-project/blob/main/index.html
 * [Preview] (https://liane4323.github.io/sep11-freedom-project/)
 * [Presentation] (https://docs.google.com/presentation/d/1Vy4m5zl3Z0J83wiOg1_8fu5u9zxmaekK90MtenDE1tY/edit#slide=id.g357eb1a2f2b_0_204)
 
